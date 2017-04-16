@@ -1,0 +1,12 @@
+The data has 245057 points,
+Blue means nonskin and red means skin
+at first we take 2500 random points to visualize the data.
+This is what we get.
+
+
+
+Lets make the points 10,000
+It seems there is a cluster towards the top-right of the centre where the colour is nonskin.
+Lets see more examples:
+
+20,000 data points.
