@@ -18,6 +18,9 @@ There are three ways it has been attempted:
   It has some errors which need to be resolved.
   They're about data formats being different when sess.run() is called. 
   
+  The dataset can be obtained from here:
+  https://archive.ics.uci.edu/ml/datasets/Skin+Segmentation
+  
   
   
   
