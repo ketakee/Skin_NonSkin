@@ -9,7 +9,7 @@ The dataset can be obtained from here:
 There are three ways it has been attempted:
   1. Keras
   2. Azure machine learning studio
-  3. TensorFlow (contains errors.)
+  3. TensorFlow 
   
   
   Two of these ways resolve the classification, however the tensorflow code has some errors.
@@ -29,8 +29,7 @@ There are three ways it has been attempted:
  3. Tensorflow
  
   The tensorflow code is based on the mnsit training example. 
-  It has some errors which need to be resolved.
-  They're about data formats being different when sess.run() is called. 
+  It has some errors about data formats being different when sess.run() is called, these errors need to be resolved. 
   
   
   
