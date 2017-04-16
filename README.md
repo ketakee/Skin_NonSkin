@@ -22,7 +22,7 @@ There are three ways it has been attempted:
   It takes 60 minutes to train 2,00,000 data points with a btach size of 100.
   It gives a 99.97% accuracy on the training data.
  
- 2. Azure machine learning studion
+ 2. Azure machine learning studio
  
    A neural network made using the azure studio gives 99.9% accuracy. It is deployed as a service in "AzureService.py"
   
