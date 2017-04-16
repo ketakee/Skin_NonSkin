@@ -15,6 +15,7 @@ There are three ways it has been attempted:
   Two of these ways resolve the classification, however the tensorflow code has some errors.
  
  1. Keras
+ 
   The Keras version uses the Adam optimizer.
   After 3 epochs, the accuracy is 35% and after 10 it is 52%.
   the accuracy should improve as the number of epochs are increased.
@@ -22,6 +23,7 @@ There are three ways it has been attempted:
   It gives a 99.97% accuracy on the training data.
  
  2. Azure machine learning studion
+ 
    A neural network made using the azure studio gives 99.9% accuracy. It is deployed as a service in "AzureService.py"
   
  3. Tensorflow
