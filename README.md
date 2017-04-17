@@ -12,15 +12,15 @@ There are three ways it has been attempted:
   3. TensorFlow 
   
   
-  Two of these ways resolve the classification, however the tensorflow code has some errors.
+  Two of these ways resolve the classification,the tensorflow code however, has some errors.
  
  1. Keras
  
-  The Keras version uses the Adam optimizer.
-  After 3 epochs, the accuracy is 35% and after 10 it is 52%.
-  the accuracy should improve as the number of epochs are increased.
-  It takes 60 minutes to train 2,00,000 data points with a btach size of 100.
-  It gives a 99.97% accuracy on the training data.
+  UPDATE:The previous version of this claimed the accuracy was 52% after 3 epochs, but it turns out there was a logical error in the code
+  where I had changed the labels from (1,2) to (1,0) for the training data. 
+  
+  This change was not made in the testing data and was causing the accuracy to reduce substantially. After fixing that,
+  the keras code works great with 100% accuracy in three epochs.
  
  2. Azure machine learning studio
  
